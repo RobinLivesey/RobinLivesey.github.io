@@ -2,23 +2,59 @@ body {
 	background-image: url("../images/alchemy-background.gif");
 }
 
+h1, h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+}
+
 h1 {
 	font-size: 80px;
 	color: #388FB2;
-	margin: 50px 0px 20px 0px;
+	margin: 20px 0px 20px 0px;
+	display: inline;
+	width: 80%;
 }
 
-h1, p {
-	font-family: 'Roboto', sans-serif;
-	padding-top: 10px;
+h2 {
+	font-size: 30px;
+	color: #388FB2;
 }
 
 header {
 	text-align: center;
 	padding-bottom: 5px;
 	background-color: #FDFDFD;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
 }
 
+.bird_1 {
+	width: 15%;
+	
+}
+/*
+.bird_1 span {
+	background-image: url("../images/bird-1.png");
+	background-size: 64px 64px;
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-top: 40%;
+	float: right;
+}
+*/
+.bird_2 {
+	width: 15%;
+}
+/*
+.bird_2 span {
+	background-image: url("../images/bird-2.png");
+	background-size: 80px 52px;
+	width: 80px;
+	height: 52px;
+	display: block;
+	margin-top: 50%;
+}
+*/
 footer {
 	background-color: #1f4e61;
 	border-top: 2px solid #388FB2;
@@ -34,13 +70,14 @@ footer {
 #page-wrap {
 	width: 95%;
 	max-width: 800px;
-	margin: -35px auto;
+	margin: 0 auto;
 	
 }
 
 .content {
 	padding: 0px 10px 10px 10px;
 	background-color: #FDFDFD;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer a {
